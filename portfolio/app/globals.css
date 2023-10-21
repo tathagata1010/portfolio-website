@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @keyframes typing {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-typing-letters {
+ animation: typing 0.5s ease-out forwards;
+ display: inline-block;
+} */
 
 :root {
   --foreground-rgb: 0, 0, 0;

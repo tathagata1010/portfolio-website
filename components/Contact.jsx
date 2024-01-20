@@ -9,16 +9,27 @@ const Contact = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+        I'm on the lookout for new and exciting opportunities as a software
+        engineer, and I'm eager to take on my next challenge. If you have a
+        compelling job offer, an exciting project, or if you simply want to
+        connect with a passionate software engineer, I'm all ears! Your message
+        could be the start of an incredible professional journey together. Don't
+        hesitate to reach out—I'm actively seeking my next adventure in the
+        software engineering world!
       </p>
 
-      <a href="mailto:logintotathagata@gmail.com">
-        <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-          Say Hello
-        </button>
-      </a>
+      <div className="flex flex-col items-center gap-6 mt-6">
+        <a href="mailto:logintotathagata@gmail.com">
+          <button className="w-40 h-14 border border-textGreen font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
+            Say Hello
+          </button>
+        </a>
+        <a href="tel:+916290377154">
+          <button className="w-40 h-14 border border-textGreen font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
+            Call Me
+          </button>
+        </a>
+      </div>
     </section>
   );
 };

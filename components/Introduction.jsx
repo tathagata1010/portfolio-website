@@ -14,16 +14,17 @@ const Introduction = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2, delay: 0.2 }}
-        className="text-lg text-textLight font-title tracking-wide"
+        className="text-4xl font-title tracking-wide"
       >
-        Hello Myself,
+        Hello,
       </motion.h3>
 
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1.8 }}
-        className="text-xl text-textGreen font-title"
+        // className="text-xl text-textGreen font-title"
+        className="font-title text-5xl text-textGreen"
       >
         <TypeAnimation
           sequence={[

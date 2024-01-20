@@ -6,6 +6,9 @@ import { motion } from 'framer-motion'
 import Introduction from '@/components/Introduction';
 import About from '@/components/About';
 import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import CertificationSection from '@/components/Certifications';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -33,7 +36,10 @@ export default function Home() {
           }}>
           <Introduction />
           <About />
-          <Experience/>
+          <Experience />
+          {/* <Projects /> */}
+          <CertificationSection />
+          <Contact/>
         </motion.div>
         
         <motion.div initial={{ x: 12, opacity: 0 }}

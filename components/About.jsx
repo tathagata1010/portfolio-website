@@ -32,8 +32,11 @@ const About = () => {
   );
 
   return (
-    <section className="max-w-containerSmall py-6 mx-auto lgl:py-24 flex flex-col gap-7">
-      <SectionTitle id="about" title={"About Me"} />
+    <section
+      id="about"
+      className="max-w-containerSmall py-6 mx-auto lgl:py-24 flex flex-col gap-7"
+    >
+      <SectionTitle title={"About Me"} />
 
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-8">
@@ -91,7 +94,7 @@ const About = () => {
           transition={{ delay: 2.1, duration: 1.4 }} // Added delay and duration for animation
           className="w-full lgl:w-1/3 h-80 relative group"
         >
-       <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
                 src={profileImg}

@@ -8,7 +8,7 @@ const CertificateCard = ({ title, des, listItem, link, logoSrc }) => {
       target="_blank"
       className="text-[inherit] hover:text-[#1ABC9C] no-underline"
     >
-      <div className="w-full h-[350px] md:h-[340px] lg:h-[385px] bg-gradient-to-b from-[#112240] to-[#112240] rounded-lg p-6 flex flex-col justify-between gap-5 hover:-translate-y-2 transition-transform duration-300 group relative">
+      <div className="w-full h-[365px] md:h-[350px] lg:h-[385px] bg-gradient-to-b from-[#112240] to-[#112240] rounded-lg p-6 flex flex-col justify-between gap-5 hover:-translate-y-2 transition-transform duration-300 group relative">
         <div className="flex justify-between items-center">
           {/* Add logo here */}
           {logoSrc && (

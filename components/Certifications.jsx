@@ -87,6 +87,24 @@ const CertificationSection = () => {
               />
             </motion.div>
             {/* Add more certification cards as needed */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.1 }}
+            >
+              <CertificateCard
+                title="Google Cloud Associate Cloud Engineer"
+                des="Demonstrate proficiency in deploying, monitoring, and maintaining projects on Google Cloud Platform (GCP), with a focus on understanding cloud architecture, networking, security, and development tools."
+                listItem={[
+                  "Cloud architecture",
+                  "Networking",
+                  "IAM",
+                  "Compute Engine",
+                ]}
+                link="https://www.credly.com/badges/a015ad23-6b3e-412b-a970-eab25205fbd4/public_url"
+                logoSrc="https://images.credly.com/size/220x220/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
+              />
+            </motion.div>
           </>
         )}
       </div>
